@@ -72,7 +72,7 @@ async def read_activ_requests():
 
 async def sql_close():
     """
-    Закрывает БД. Не совсем актуально, поскольку сейчас используется асинхронная библиотека доступа к БД 'asyncpg'
+    Закрывает БД.
     :return:
     """
     await base.close()
